@@ -1,0 +1,41 @@
+html {
+  font-size: 62.5%;
+}
+
+.didot {
+  font-family: "linotype-didot", serif;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  border: 2px solid #111;
+
+  &__bold {
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 5rem;
+
+    &__italic {
+      font-weight: 700;
+      font-style: italic;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__italic {
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 5rem;
+  }
+
+  &__roman {
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5rem;
+  }
+
+  &__headline {
+    font-family: "linotype-didot-headlime", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5rem;
+  }
+}
