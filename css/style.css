@@ -5,29 +5,42 @@
 html {
   font-size: 62.5%; }
 
+.serifFonts {
+  border: 3px solid #cf1313; }
+
+.fonts {
+  padding: 2rem;
+  background-color: #abe7d0;
+  font-size: 3rem; }
+
 .didot {
   font-family: "linotype-didot", serif;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 5rem;
-  border: 2px solid #111; }
+  border: 2px solid #111;
+  padding: 2rem; }
   .didot__bold {
     font-weight: 700;
     font-style: normal;
-    margin-bottom: 5rem; }
+    margin-bottom: 5rem;
+    font-size: 3rem; }
     .didot__bold__italic {
       font-weight: 700;
       font-style: italic;
-      margin-bottom: 5rem; }
+      margin-bottom: 5rem;
+      font-size: 3rem; }
   .didot__italic {
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 5rem; }
+    margin-bottom: 5rem;
+    font-size: 3rem; }
   .didot__roman {
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 5rem; }
+    margin-bottom: 5rem;
+    font-size: 3rem; }
   .didot__headline {
-    font-family: "linotype-didot-headlime", serif;
+    font-family: "linotype-didot-headline", serif;
     font-weight: 400;
     font-style: normal;
     margin-bottom: 5rem; }
