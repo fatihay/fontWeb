@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -38,4 +43,80 @@ html {
     font-style: normal;
     margin-bottom: 5rem;
   }
+}
+
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+// OPEN SANS
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+.openSans {
+  font-family: "Open Sans", serif;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  border: 2px solid #111;
+  padding: 3rem;
+
+  &--italic {
+    &--300 {
+      font-weight: 300;
+      font-style: italic;
+      font-size: 6rem;
+      line-height: 1.3;
+      letter-spacing: 1px;
+      margin-bottom: 7rem;
+    }
+
+    &--400 {
+      font-weight: 400;
+      font-style: italic;
+      font-size: 6rem;
+      line-height: 1.3;
+      letter-spacing: 1px;
+      margin-bottom: 7rem;
+    }
+  }
+
+  &--regular {
+    &--300 {
+      font-weight: 300;
+      font-style: normal;
+      font-size: 6rem;
+      line-height: 1.3;
+      letter-spacing: 1px;
+      margin-bottom: 7rem;
+    }
+
+    &--400 {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 6rem;
+      line-height: 1.3;
+      letter-spacing: 1px;
+      margin-bottom: 7rem;
+    }
+
+    &--800 {
+      font-weight: 800;
+      font-style: normal;
+      font-size: 7.2rem;
+      line-height: 1.2;
+      letter-spacing: 1.3px;
+      margin-bottom: 7rem;
+    }
+
+    &--700 {
+      font-weight: 700;
+      font-style: normal;
+      font-size: 6.6rem;
+      line-height: 1.2;
+      letter-spacing: 1.3px;
+      margin-bottom: 7rem;
+    }
+  }
+}
+
+.nitelik {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #999;
 }
